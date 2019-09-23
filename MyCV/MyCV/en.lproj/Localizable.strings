@@ -12,3 +12,18 @@ AboutMe
  */
 
 "About_VC_title"         = "About me";
+"About_VC_level"         = "iOS Developer";
+"About_VC_about"         = "Bachelor of Computer Engineering, graduated from the University of Guadalajara, iOS developer with 5 years of experience working with Swift and objective c. Use of UIKit, mapkit, core location, GCD, Foundation, callkit and WebKit.\nData storage with Core data and realm.\niOS team leader in a BBVA Wallet module as a mobile consultant and leader on favly.com";
+"About_VC_summaryofQualificationsTitle"         = "Summary of Qualifications";
+"About_VC_summaryofQualifications"         = "Cocoapods\nCarthage\nSwift\nObj c\nJava\nJson\Agil\Git";
+"About_VC_languages"         = "Spanish(Native speaker)\n English(advanced)";
+"About_VC_socialMedia"         = "You can find me in";
+"About_VC_contact"         = "Azcaptzalco\nCampo san pedrito 52\nSan Antonio 02720\nCiudad de México, CDMX";
+"About_VC_contactTitle"         = "Contact info";
+
+
+
+
+
+
+

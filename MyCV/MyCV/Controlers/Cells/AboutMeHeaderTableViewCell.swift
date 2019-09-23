@@ -27,13 +27,27 @@ class AboutMeHeaderTableViewCell: UITableViewCell {
     
 }
 
+// MARK: - AboutMeHeaderTableViewCell extension
+
 extension AboutMeHeaderTableViewCell: UITableViewCellSetupProtocol{
-    func SetupCell(withViewModel viewModel: Any?) {
+    func SetupCell(withViewModel viewModel: Any?,inRow row: Int) {
         if let model = viewModel as? UserProfileInfo{
             self.nameLabel.text = "\(model.name) \(model.lastName)"
             self.levelLabel.text = model.level
+            if let  url = URL(string: Constants.url.myPhoto.rawValue){
+                Webservice().dowloadImage(url: url) {[weak self](error, image) in
+                    if error != nil {
+                        self?.profileImage.image = UIImage(named: Constants.userInformation.dummyPhoto.rawValue)
+                        self?.profileImage.contentMode = .scaleAspectFit
+                        self?.profileImage.setCircular()
+                    }else{
+                        self?.profileImage.image = image
+                        self?.profileImage.contentMode = .scaleAspectFit
+                        self?.profileImage.setCircular()
+                    }
+                }
+            }
         }
-        
     }
 
 }

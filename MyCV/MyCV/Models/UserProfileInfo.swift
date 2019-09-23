@@ -10,6 +10,6 @@ import Foundation
 
 
 struct UserProfileInfo {
-    let name, lastName, level, about: String
+    let name, lastName, level, about, summaryofQualifications, languages, socialMedia, contact: String
 }
 

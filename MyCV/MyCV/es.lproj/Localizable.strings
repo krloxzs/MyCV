@@ -6,9 +6,16 @@
   Copyright © 2019 Carlos Rodriguez. All rights reserved.
 */
 
-
 /*
  AboutMe
  */
 
-"About_VC_title"         = "Acerca de mi";
+"About_VC_title"         = "About me";
+"About_VC_level"         = "Desarrollador iOS";
+"About_VC_about"         = "Titulado en Ingeniería Conputación, graduado de la Universidad de Guadalajara, desarrollador de iOS con 5 años de experiencia trabajando con Swift y objetivo c. Uso de UIKit, mapkit, ubicación central, GCD, Foundation, callkit y WebKit. \n Almacenamiento de datos con Core data and realm. \n iOS líder del equipo en un módulo BBVA Wallet como consultor móvil y líder en favly.com";
+"About_VC_summaryofQualificationsTitle"         = "Resumen de calificaciones";
+"About_VC_summaryofQualifications"         = "Cocoapods\nCarthage\nSwift\nObj c\nJava\nJson\Agil\Git";
+"About_VC_languages"         = "Español(Native speaker)\n English(advanced)";
+"About_VC_socialMedia"         = "Puedes encontrarme en";
+"About_VC_contact"         = "Azcaptzalco\nCampo san pedrito 52\nSan Antonio 02720\nCiudad de México, CDMX";
+"About_VC_contactTitle"         = "Contact info";

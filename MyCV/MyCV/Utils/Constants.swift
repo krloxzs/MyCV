@@ -12,11 +12,13 @@ enum Constants {
     
     
     enum userInformation:String {
+        case dummyPhoto = "TabBar_face"
         case name = "Carlos"
         case lastName = "Rodriguez"
-        case position = "iOS Developer"
-        case aboutMe = "Bachelor of Computer Engineering, graduated from the University of Guadalajara, iOS developer with 5 years of experience working with Swift and objective c. Use of UIKit, mapkit, core location, GCD, Foundation, callkit and WebKit.\nData storage with Core data and realm.\niOS team leader in a BBVA Wallet module as a mobile consultant and leader on favly.com"
-        
+    }
+    
+    enum url :String{
+        case myPhoto = "https://media.licdn.com/dms/image/C4E03AQF6IbvG6wf3_g/profile-displayphoto-shrink_200_200/0?e=1574899200&v=beta&t=PT451RDc5TZtdbhB5TxIg7Qdjoy0ibq6O7c_6ZLjCo8"
     }
     
     

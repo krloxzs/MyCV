@@ -26,10 +26,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="122.5" height="141.5"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TabBar_face" translatesAutoresizingMaskIntoConstraints="NO" id="Ldl-2g-GkP">
-                                        <rect key="frame" x="11" y="30" width="100" height="60"/>
+                                        <rect key="frame" x="31" y="30" width="60" height="60"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="60" id="eiB-18-vU7"/>
-                                            <constraint firstAttribute="width" constant="100" id="x8x-0w-sTZ"/>
+                                            <constraint firstAttribute="width" constant="60" id="x8x-0w-sTZ"/>
                                         </constraints>
                                     </imageView>
                                 </subviews>

@@ -9,5 +9,5 @@
 import Foundation
 
 protocol UITableViewCellSetupProtocol {
-    func SetupCell(withViewModel viewModel:Any?)
+    func SetupCell(withViewModel viewModel:Any?,inRow row:Int)
 }

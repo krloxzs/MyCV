@@ -37,6 +37,9 @@ extension AboutMeViewController:SetupBaseViewControllerProtocol{
         self.tableView.estimatedRowHeight = 100
         self.tableView?.register(UINib(nibName: String(describing: AboutMeHeaderTableViewCell.self), bundle: nil), forCellReuseIdentifier: String(describing: AboutMeHeaderTableViewCell.self))
          self.tableView?.register(UINib(nibName: String(describing: AboutMeInfoTableViewCell.self), bundle: nil), forCellReuseIdentifier: String(describing: AboutMeInfoTableViewCell.self))
+         self.tableView?.register(UINib(nibName: String(describing: SocialMediaTableViewCell.self), bundle: nil), forCellReuseIdentifier: String(describing: SocialMediaTableViewCell.self))
+        
+        
     }
 }
 
@@ -58,16 +61,43 @@ extension AboutMeViewController: UITableViewDataSource,UITableViewDelegate{
         case 0:
             let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: AboutMeHeaderTableViewCell.self), for: indexPath) as? AboutMeHeaderTableViewCell
             cell?.selectionStyle = UITableViewCell.SelectionStyle.none
-            cell?.SetupCell(withViewModel: self.viewModel.user)
+            cell?.SetupCell(withViewModel: self.viewModel.user, inRow: indexPath.row)
             return cell!
-        case 1:
+        case 1,2,4:
             let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: AboutMeInfoTableViewCell.self), for: indexPath) as? AboutMeInfoTableViewCell
             cell?.selectionStyle = UITableViewCell.SelectionStyle.none
-            cell?.SetupCell(withViewModel: self.viewModel.user)
+            cell?.SetupCell(withViewModel: self.viewModel.user, inRow: indexPath.row)
             return cell!
+            
+        case 3 :
+            let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: SocialMediaTableViewCell.self), for: indexPath) as? SocialMediaTableViewCell
+            cell?.selectionStyle = UITableViewCell.SelectionStyle.none
+            cell?.delegate = self
+            cell?.SetupCell(withViewModel: self.viewModel.user, inRow: indexPath.row)
+            return cell!
+            
         default:
              return UITableViewCell()
         }
+    }
+    
+    
+}
+
+extension AboutMeViewController : SocialMediaTableViewCellDelegate{
+    func gotoGit() {
+        guard let url = URL(string: "https://github.com/krloxzs") else { return }
+        UIApplication.shared.open(url)
+    }
+    
+    func gotoLinkedin() {
+        guard let url = URL(string: "https://www.linkedin.com/in/carlosrguerrero/") else { return }
+        UIApplication.shared.open(url)
+    }
+    
+    func gotoTwitter() {
+        guard let url = URL(string: "https://twitter.com/GusanitoCarlos") else { return }
+        UIApplication.shared.open(url)
     }
     
     

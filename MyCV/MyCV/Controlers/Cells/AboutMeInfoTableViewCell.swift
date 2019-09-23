@@ -26,11 +26,23 @@ class AboutMeInfoTableViewCell: UITableViewCell {
 }
 
 extension AboutMeInfoTableViewCell: UITableViewCellSetupProtocol{
-    func SetupCell(withViewModel viewModel: Any?) {
+    func SetupCell(withViewModel viewModel: Any?,inRow row: Int) {
         if let model = viewModel as? UserProfileInfo{
-            self.titleLabel.text = AppStrings.About_VC_title
-            self.infoLabel.text = model.about
+            switch row {
+            case 1:
+                self.titleLabel.text = AppStrings.About_VC_title
+                self.infoLabel.text = model.about
+            case 2:
+                self.titleLabel.text = AppStrings.About_VC_summaryofQualificationsTitle
+                self.infoLabel.text = model.summaryofQualifications
+            case 4:
+                self.titleLabel.text = AppStrings.About_VC_contactTitle
+                self.infoLabel.text = model.contact
+            default:
+                break
+            }
+           
         }
-        
+       
     }
 }
