@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AboutMeHeaderTableViewCell" rowHeight="138" id="KGk-i7-Jjw" customClass="AboutMeHeaderTableViewCell" customModule="MyCV" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="408" height="138"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="408" height="137.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="7r5-y2-pJY">
+                        <rect key="frame" x="0.0" y="0.0" width="408" height="141.5"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uus-FB-2RU">
+                                <rect key="frame" x="0.0" y="0.0" width="122.5" height="141.5"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TabBar_face" translatesAutoresizingMaskIntoConstraints="NO" id="Ldl-2g-GkP">
+                                        <rect key="frame" x="11" y="30" width="100" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="eiB-18-vU7"/>
+                                            <constraint firstAttribute="width" constant="100" id="x8x-0w-sTZ"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="Ldl-2g-GkP" firstAttribute="centerX" secondItem="uus-FB-2RU" secondAttribute="centerX" id="Y5p-eI-tb9"/>
+                                    <constraint firstItem="Ldl-2g-GkP" firstAttribute="top" secondItem="uus-FB-2RU" secondAttribute="top" constant="30" id="nh6-vS-max"/>
+                                    <constraint firstItem="Ldl-2g-GkP" firstAttribute="centerY" secondItem="uus-FB-2RU" secondAttribute="centerY" id="sOY-Jm-1Rk"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="ayh-fd-DGN">
+                                <rect key="frame" x="122.5" y="0.0" width="285.5" height="141.5"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TSb-hS-PCP">
+                                        <rect key="frame" x="0.0" y="0.0" width="285.5" height="81.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xRI-eO-BpG">
+                                                <rect key="frame" x="0.0" y="0.0" width="285.5" height="81.5"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="xRI-eO-BpG" firstAttribute="leading" secondItem="TSb-hS-PCP" secondAttribute="leading" id="CQB-xT-Cqx"/>
+                                            <constraint firstItem="xRI-eO-BpG" firstAttribute="top" secondItem="TSb-hS-PCP" secondAttribute="top" id="MuN-Cs-dJF"/>
+                                            <constraint firstAttribute="trailing" secondItem="xRI-eO-BpG" secondAttribute="trailing" id="dTe-pD-0uW"/>
+                                            <constraint firstAttribute="bottom" secondItem="xRI-eO-BpG" secondAttribute="bottom" id="pzr-yL-a6Z"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rfV-Nr-Big">
+                                        <rect key="frame" x="0.0" y="81.5" width="285.5" height="60"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SEa-Fm-odo">
+                                                <rect key="frame" x="0.0" y="0.0" width="285.5" height="60"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="SEa-Fm-odo" firstAttribute="leading" secondItem="rfV-Nr-Big" secondAttribute="leading" id="6Gw-D3-K9v"/>
+                                            <constraint firstAttribute="bottom" secondItem="SEa-Fm-odo" secondAttribute="bottom" id="Cbh-p9-1pa"/>
+                                            <constraint firstAttribute="trailing" secondItem="SEa-Fm-odo" secondAttribute="trailing" id="hIQ-PQ-a6q"/>
+                                            <constraint firstItem="SEa-Fm-odo" firstAttribute="top" secondItem="rfV-Nr-Big" secondAttribute="top" id="kzO-XA-KgP"/>
+                                            <constraint firstAttribute="height" constant="60" id="zv3-bJ-AM9"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="ayh-fd-DGN" firstAttribute="leading" secondItem="uus-FB-2RU" secondAttribute="trailing" id="4j7-bf-6di"/>
+                            <constraint firstItem="ayh-fd-DGN" firstAttribute="leading" secondItem="uus-FB-2RU" secondAttribute="trailing" id="78M-yO-8dW"/>
+                            <constraint firstAttribute="bottom" secondItem="uus-FB-2RU" secondAttribute="bottom" id="Ccj-CT-Pv5"/>
+                            <constraint firstItem="ayh-fd-DGN" firstAttribute="leading" secondItem="uus-FB-2RU" secondAttribute="trailing" id="FsA-5U-zOX"/>
+                            <constraint firstItem="uus-FB-2RU" firstAttribute="leading" secondItem="7r5-y2-pJY" secondAttribute="leading" id="IJa-92-kqG"/>
+                            <constraint firstItem="uus-FB-2RU" firstAttribute="top" secondItem="7r5-y2-pJY" secondAttribute="top" id="SgQ-mh-80s"/>
+                            <constraint firstItem="uus-FB-2RU" firstAttribute="width" secondItem="7r5-y2-pJY" secondAttribute="width" multiplier="0.3" id="py0-Lj-fdm"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="7r5-y2-pJY" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="2fc-3l-9gS"/>
+                    <constraint firstItem="7r5-y2-pJY" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Okw-UZ-avf"/>
+                    <constraint firstAttribute="trailing" secondItem="7r5-y2-pJY" secondAttribute="trailing" id="R3c-8n-GLq"/>
+                    <constraint firstAttribute="bottom" secondItem="7r5-y2-pJY" secondAttribute="bottom" id="ZlJ-Ew-hbD"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="levelLabel" destination="SEa-Fm-odo" id="6XP-53-FCJ"/>
+                <outlet property="nameLabel" destination="xRI-eO-BpG" id="rBe-5g-qqq"/>
+                <outlet property="profileImage" destination="Ldl-2g-GkP" id="kx9-d8-TBM"/>
+            </connections>
+            <point key="canvasLocation" x="213.04347826086959" y="188.83928571428569"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="TabBar_face" width="36" height="36"/>
+    </resources>
+</document>

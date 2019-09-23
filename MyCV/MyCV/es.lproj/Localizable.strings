@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  MyCV
+
+  Created by Carlos Rodriguez on 9/22/19.
+  Copyright © 2019 Carlos Rodriguez. All rights reserved.
+*/
+
+
+/*
+ AboutMe
+ */
+
+"About_VC_title"         = "Acerca de mi";
