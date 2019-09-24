@@ -120,11 +120,11 @@
             </objects>
             <point key="canvasLocation" x="-55.072463768115945" y="-1099.5535714285713"/>
         </scene>
-        <!--Item 2-->
+        <!--Carrer-->
         <scene sceneID="22P-gI-HPN">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="SCk-M6-yia" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 2" image="TabBar_work" id="5FK-0U-zie">
+                    <tabBarItem key="tabBarItem" title="Carrer" image="TabBar_work" id="5FK-0U-zie">
                         <color key="badgeColor" red="0.17254901960784313" green="0.24313725490196078" blue="0.31372549019607843" alpha="1" colorSpace="calibratedRGB"/>
                     </tabBarItem>
                     <toolbarItems/>

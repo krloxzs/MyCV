@@ -25,7 +25,7 @@ class CarrerHistoryViewController: BaseViewController {
  // MARK: - SetupBaseViewControllerProtocol
 extension CarrerHistoryViewController:SetupBaseViewControllerProtocol{
     func setupUI() {
-        self.title = AppStrings.About_VC_title
+        self.title = AppStrings.Carrer_VC_Title
         self.navigationController?.navigationBar.prefersLargeTitles = true
         self.resetButtonsItems()
         self.tableView.contentInsetAdjustmentBehavior = .never

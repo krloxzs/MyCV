@@ -17,6 +17,8 @@ struct AppStrings {
     static let About_VC_contact         = "About_VC_contact".localized
     static let About_VC_summaryofQualificationsTitle         = "About_VC_summaryofQualificationsTitle".localized
     static let About_VC_contactTitle         = "About_VC_contactTitle".localized
+    static let Carrer_VC_Title         = "Carrer_VC_Title".localized
+    
     
     
     
