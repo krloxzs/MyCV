@@ -13,11 +13,13 @@
 		3E2200032339C8DD005FE5D1 /* JobInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E22FFFF2339C8DD005FE5D1 /* JobInfoViewController.xib */; };
 		3E2200042339C8DD005FE5D1 /* JobInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E22FFFF2339C8DD005FE5D1 /* JobInfoViewController.xib */; };
 		3E2200052339C8DD005FE5D1 /* JobInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E22FFFF2339C8DD005FE5D1 /* JobInfoViewController.xib */; };
+		3E22000C233ACB5F005FE5D1 /* AboutMeViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E22000A233ACB5F005FE5D1 /* AboutMeViewControllerTest.swift */; };
+		3E22000E233ACD93005FE5D1 /* WebServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E22000D233ACD93005FE5D1 /* WebServiceTest.swift */; };
+		3E220010233AD1CE005FE5D1 /* MyCVUITestIphonex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E22000F233AD1CE005FE5D1 /* MyCVUITestIphonex.swift */; };
 		3E22FF5923385CD7005FE5D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E22FF5823385CD7005FE5D1 /* AppDelegate.swift */; };
 		3E22FF5E23385CD7005FE5D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E22FF5C23385CD7005FE5D1 /* Main.storyboard */; };
 		3E22FF6023385CD9005FE5D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E22FF5F23385CD9005FE5D1 /* Assets.xcassets */; };
 		3E22FF6323385CD9005FE5D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E22FF6123385CD9005FE5D1 /* LaunchScreen.storyboard */; };
-		3E22FF6E23385CDA005FE5D1 /* MyCVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E22FF6D23385CDA005FE5D1 /* MyCVTests.swift */; };
 		3E22FF7923385CDA005FE5D1 /* MyCVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E22FF7823385CDA005FE5D1 /* MyCVUITests.swift */; };
 		3E22FF8E23386E7B005FE5D1 /* AboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E22FF8D23386E7B005FE5D1 /* AboutMeViewController.swift */; };
 		3E22FF8F23386E7B005FE5D1 /* AboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E22FF8D23386E7B005FE5D1 /* AboutMeViewController.swift */; };
@@ -111,6 +113,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E22000A233ACB5F005FE5D1 /* AboutMeViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeViewControllerTest.swift; sourceTree = "<group>"; };
+		3E22000D233ACD93005FE5D1 /* WebServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceTest.swift; sourceTree = "<group>"; };
+		3E22000F233AD1CE005FE5D1 /* MyCVUITestIphonex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCVUITestIphonex.swift; sourceTree = "<group>"; };
 		3E22FF5523385CD7005FE5D1 /* MyCV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E22FF5823385CD7005FE5D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E22FF5D23385CD7005FE5D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -118,7 +123,6 @@
 		3E22FF6223385CD9005FE5D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E22FF6423385CD9005FE5D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E22FF6923385CDA005FE5D1 /* MyCVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3E22FF6D23385CDA005FE5D1 /* MyCVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCVTests.swift; sourceTree = "<group>"; };
 		3E22FF6F23385CDA005FE5D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E22FF7423385CDA005FE5D1 /* MyCVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E22FF7823385CDA005FE5D1 /* MyCVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCVUITests.swift; sourceTree = "<group>"; };
@@ -218,7 +222,8 @@
 		3E22FF6C23385CDA005FE5D1 /* MyCVTests */ = {
 			isa = PBXGroup;
 			children = (
-				3E22FF6D23385CDA005FE5D1 /* MyCVTests.swift */,
+				3E22000D233ACD93005FE5D1 /* WebServiceTest.swift */,
+				3E22000A233ACB5F005FE5D1 /* AboutMeViewControllerTest.swift */,
 				3E22FF6F23385CDA005FE5D1 /* Info.plist */,
 			);
 			path = MyCVTests;
@@ -227,6 +232,7 @@
 		3E22FF7723385CDA005FE5D1 /* MyCVUITests */ = {
 			isa = PBXGroup;
 			children = (
+				3E22000F233AD1CE005FE5D1 /* MyCVUITestIphonex.swift */,
 				3E22FF7823385CDA005FE5D1 /* MyCVUITests.swift */,
 				3E22FF7A23385CDA005FE5D1 /* Info.plist */,
 			);
@@ -484,15 +490,16 @@
 				3E22FFDC23388F84005FE5D1 /* WebServices.swift in Sources */,
 				3E22FFE0233899C9005FE5D1 /* UIView+Extension.swift in Sources */,
 				3E22FFEC2338A6E2005FE5D1 /* CarrerHistoryViewController.swift in Sources */,
-				3E22FF6E23385CDA005FE5D1 /* MyCVTests.swift in Sources */,
 				3E22FF9323386F5E005FE5D1 /* BaseViewController.swift in Sources */,
 				3E22FF9723386FBE005FE5D1 /* Constants.swift in Sources */,
 				3E22FFF92339B9EB005FE5D1 /* HistoryCareerTableViewCell.swift in Sources */,
+				3E22000E233ACD93005FE5D1 /* WebServiceTest.swift in Sources */,
 				3E22FFE523389FF0005FE5D1 /* SocialMediaTableViewCell.swift in Sources */,
 				3E22FFF42338A857005FE5D1 /* Work.swift in Sources */,
 				3E22FFB1233881D9005FE5D1 /* UserProfileInfo.swift in Sources */,
 				3E22FFD423388ADB005FE5D1 /* AboutMeInfoTableViewCell.swift in Sources */,
 				3E22FFF02338A805005FE5D1 /* CarrerViewModel.swift in Sources */,
+				3E22000C233ACB5F005FE5D1 /* AboutMeViewControllerTest.swift in Sources */,
 				3E2200012339C8DD005FE5D1 /* JobInfoViewController.swift in Sources */,
 				3E22FFA923387A32005FE5D1 /* NSObject+Extension.swift in Sources */,
 				3E22FFB5233882C9005FE5D1 /* AboutMeViewModel.swift in Sources */,
@@ -527,6 +534,7 @@
 				3E22FFCC23388A1E005FE5D1 /* Strings+Extension.swift in Sources */,
 				3E22FFA323387650005FE5D1 /* AboutMeHeaderTableViewCell.swift in Sources */,
 				3E22FF9C2338729A005FE5D1 /* UIColor+Extension.swift in Sources */,
+				3E220010233AD1CE005FE5D1 /* MyCVUITestIphonex.swift in Sources */,
 				3E22FFAE23387BFA005FE5D1 /* UItableViewCellProtocols.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

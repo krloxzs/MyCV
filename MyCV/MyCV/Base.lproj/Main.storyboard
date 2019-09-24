@@ -48,7 +48,7 @@
         <!--About Me View Controller-->
         <scene sceneID="htD-6p-RdE">
             <objects>
-                <viewController id="Y6x-wn-Wa0" customClass="AboutMeViewController" customModule="MyCV" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AboutMeViewController" id="Y6x-wn-Wa0" customClass="AboutMeViewController" customModule="MyCV" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jOU-ow-aEh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
