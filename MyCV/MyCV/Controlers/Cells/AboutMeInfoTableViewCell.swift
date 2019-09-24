@@ -9,7 +9,7 @@
 import UIKit
 
 class AboutMeInfoTableViewCell: UITableViewCell {
-
+    // MARK: - IBOutlet
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var infoLabel: UILabel!
     override func awakeFromNib() {
@@ -19,12 +19,10 @@ class AboutMeInfoTableViewCell: UITableViewCell {
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
     }
-    
 }
 
+// MARK: - UITableViewCellSetupProtocol
 extension AboutMeInfoTableViewCell: UITableViewCellSetupProtocol{
     func SetupCell(withViewModel viewModel: Any?,inRow row: Int) {
         if let model = viewModel as? UserProfileInfo{

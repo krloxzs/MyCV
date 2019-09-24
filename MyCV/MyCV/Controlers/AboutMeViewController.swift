@@ -9,24 +9,16 @@
 import UIKit
 
 class AboutMeViewController: BaseViewController{
-    
+
     // MARK: - IBOutlets
     @IBOutlet weak var tableView: UITableView!
-    
+    // MARK: - vars
     private var viewModel = AboutMeViewModel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.setupUI()
-        // Do any additional setup after loading the view.
     }
-    
-
-
-    // MARK: - Navigation
-
-
-
 }
 
 extension AboutMeViewController:SetupBaseViewControllerProtocol{
@@ -38,8 +30,6 @@ extension AboutMeViewController:SetupBaseViewControllerProtocol{
         self.tableView?.register(UINib(nibName: String(describing: AboutMeHeaderTableViewCell.self), bundle: nil), forCellReuseIdentifier: String(describing: AboutMeHeaderTableViewCell.self))
          self.tableView?.register(UINib(nibName: String(describing: AboutMeInfoTableViewCell.self), bundle: nil), forCellReuseIdentifier: String(describing: AboutMeInfoTableViewCell.self))
          self.tableView?.register(UINib(nibName: String(describing: SocialMediaTableViewCell.self), bundle: nil), forCellReuseIdentifier: String(describing: SocialMediaTableViewCell.self))
-        
-        
     }
 }
 
@@ -75,7 +65,6 @@ extension AboutMeViewController: UITableViewDataSource,UITableViewDelegate{
             cell?.delegate = self
             cell?.SetupCell(withViewModel: self.viewModel.user, inRow: indexPath.row)
             return cell!
-            
         default:
              return UITableViewCell()
         }

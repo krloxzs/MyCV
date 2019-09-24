@@ -15,10 +15,11 @@ protocol SocialMediaTableViewCellDelegate{
 }
 
 class SocialMediaTableViewCell: UITableViewCell {
-
+    // MARK: - IBOutlet
     @IBOutlet weak var titleLabel: UILabel!
-    var delegate :SocialMediaTableViewCellDelegate?
     
+    // MARK: - vars
+    var delegate :SocialMediaTableViewCellDelegate?
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -27,10 +28,9 @@ class SocialMediaTableViewCell: UITableViewCell {
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
     }
     
+   // MARK: - Actions
     @IBAction func gitHubButtonpress(_ sender: UIButton) {
         self.delegate?.gotoGit()
     }
@@ -45,6 +45,7 @@ class SocialMediaTableViewCell: UITableViewCell {
     }
 }
 
+// MARK: - UITableViewCellSetupProtocol
 extension SocialMediaTableViewCell: UITableViewCellSetupProtocol{
     func SetupCell(withViewModel viewModel: Any?, inRow row: Int) {
         if let model = viewModel as? UserProfileInfo{

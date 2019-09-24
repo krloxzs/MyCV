@@ -7,8 +7,6 @@
 //
 
 import Foundation
-
-
 struct Job {
     let companyName, businessPosition,carrerInfo,date,imageUrl,companyURL: String
 }

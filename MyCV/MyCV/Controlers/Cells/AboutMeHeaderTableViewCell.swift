@@ -9,26 +9,22 @@
 import UIKit
 
 class AboutMeHeaderTableViewCell: UITableViewCell {
-    
-    
+    // MARK: - IBOutlet
     @IBOutlet weak var profileImage: UIImageView!
     @IBOutlet weak var levelLabel: UILabel!
     @IBOutlet weak var nameLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     }
     
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-        
-        // Configure the view for the selected state
     }
     
 }
 
 // MARK: - AboutMeHeaderTableViewCell extension
-
 extension AboutMeHeaderTableViewCell: UITableViewCellSetupProtocol{
     func SetupCell(withViewModel viewModel: Any?,inRow row: Int) {
         if let model = viewModel as? UserProfileInfo{

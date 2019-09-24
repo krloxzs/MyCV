@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E2200002339C8DD005FE5D1 /* JobInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E22FFFE2339C8DD005FE5D1 /* JobInfoViewController.swift */; };
+		3E2200012339C8DD005FE5D1 /* JobInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E22FFFE2339C8DD005FE5D1 /* JobInfoViewController.swift */; };
+		3E2200022339C8DD005FE5D1 /* JobInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E22FFFE2339C8DD005FE5D1 /* JobInfoViewController.swift */; };
+		3E2200032339C8DD005FE5D1 /* JobInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E22FFFF2339C8DD005FE5D1 /* JobInfoViewController.xib */; };
+		3E2200042339C8DD005FE5D1 /* JobInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E22FFFF2339C8DD005FE5D1 /* JobInfoViewController.xib */; };
+		3E2200052339C8DD005FE5D1 /* JobInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E22FFFF2339C8DD005FE5D1 /* JobInfoViewController.xib */; };
 		3E22FF5923385CD7005FE5D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E22FF5823385CD7005FE5D1 /* AppDelegate.swift */; };
 		3E22FF5E23385CD7005FE5D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E22FF5C23385CD7005FE5D1 /* Main.storyboard */; };
 		3E22FF6023385CD9005FE5D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E22FF5F23385CD9005FE5D1 /* Assets.xcassets */; };
@@ -79,6 +85,12 @@
 		3E22FFF32338A857005FE5D1 /* Work.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E22FFF22338A857005FE5D1 /* Work.swift */; };
 		3E22FFF42338A857005FE5D1 /* Work.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E22FFF22338A857005FE5D1 /* Work.swift */; };
 		3E22FFF52338A857005FE5D1 /* Work.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E22FFF22338A857005FE5D1 /* Work.swift */; };
+		3E22FFF82339B9EB005FE5D1 /* HistoryCareerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E22FFF62339B9EB005FE5D1 /* HistoryCareerTableViewCell.swift */; };
+		3E22FFF92339B9EB005FE5D1 /* HistoryCareerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E22FFF62339B9EB005FE5D1 /* HistoryCareerTableViewCell.swift */; };
+		3E22FFFA2339B9EB005FE5D1 /* HistoryCareerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E22FFF62339B9EB005FE5D1 /* HistoryCareerTableViewCell.swift */; };
+		3E22FFFB2339B9EB005FE5D1 /* HistoryCareerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E22FFF72339B9EB005FE5D1 /* HistoryCareerTableViewCell.xib */; };
+		3E22FFFC2339B9EB005FE5D1 /* HistoryCareerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E22FFF72339B9EB005FE5D1 /* HistoryCareerTableViewCell.xib */; };
+		3E22FFFD2339B9EB005FE5D1 /* HistoryCareerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E22FFF72339B9EB005FE5D1 /* HistoryCareerTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -134,6 +146,10 @@
 		3E22FFEA2338A6E2005FE5D1 /* CarrerHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrerHistoryViewController.swift; sourceTree = "<group>"; };
 		3E22FFEE2338A805005FE5D1 /* CarrerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrerViewModel.swift; sourceTree = "<group>"; };
 		3E22FFF22338A857005FE5D1 /* Work.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Work.swift; sourceTree = "<group>"; };
+		3E22FFF62339B9EB005FE5D1 /* HistoryCareerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryCareerTableViewCell.swift; sourceTree = "<group>"; };
+		3E22FFF72339B9EB005FE5D1 /* HistoryCareerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HistoryCareerTableViewCell.xib; sourceTree = "<group>"; };
+		3E22FFFE2339C8DD005FE5D1 /* JobInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobInfoViewController.swift; sourceTree = "<group>"; };
+		3E22FFFF2339C8DD005FE5D1 /* JobInfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JobInfoViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -238,9 +254,11 @@
 		3E22FF8B23386BCB005FE5D1 /* Controlers */ = {
 			isa = PBXGroup;
 			children = (
+				3E22FFFE2339C8DD005FE5D1 /* JobInfoViewController.swift */,
+				3E22FFFF2339C8DD005FE5D1 /* JobInfoViewController.xib */,
+				3E22FFEA2338A6E2005FE5D1 /* CarrerHistoryViewController.swift */,
 				3E22FF8D23386E7B005FE5D1 /* AboutMeViewController.swift */,
 				3E22FF9E2338761E005FE5D1 /* Cells */,
-				3E22FFEA2338A6E2005FE5D1 /* CarrerHistoryViewController.swift */,
 			);
 			path = Controlers;
 			sourceTree = "<group>";
@@ -269,6 +287,8 @@
 				3E22FFD223388ADB005FE5D1 /* AboutMeInfoTableViewCell.xib */,
 				3E22FFE223389FF0005FE5D1 /* SocialMediaTableViewCell.swift */,
 				3E22FFE323389FF0005FE5D1 /* SocialMediaTableViewCell.xib */,
+				3E22FFF62339B9EB005FE5D1 /* HistoryCareerTableViewCell.swift */,
+				3E22FFF72339B9EB005FE5D1 /* HistoryCareerTableViewCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -392,7 +412,9 @@
 				3E22FF6323385CD9005FE5D1 /* LaunchScreen.storyboard in Resources */,
 				3E22FF6023385CD9005FE5D1 /* Assets.xcassets in Resources */,
 				3E22FFE723389FF0005FE5D1 /* SocialMediaTableViewCell.xib in Resources */,
+				3E22FFFB2339B9EB005FE5D1 /* HistoryCareerTableViewCell.xib in Resources */,
 				3E22FF5E23385CD7005FE5D1 /* Main.storyboard in Resources */,
+				3E2200032339C8DD005FE5D1 /* JobInfoViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +423,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E22FFA523387650005FE5D1 /* AboutMeHeaderTableViewCell.xib in Resources */,
+				3E22FFFC2339B9EB005FE5D1 /* HistoryCareerTableViewCell.xib in Resources */,
+				3E2200042339C8DD005FE5D1 /* JobInfoViewController.xib in Resources */,
 				3E22FFD723388ADB005FE5D1 /* AboutMeInfoTableViewCell.xib in Resources */,
 				3E22FFC023388914005FE5D1 /* Localizable.strings in Resources */,
 				3E22FFE823389FF0005FE5D1 /* SocialMediaTableViewCell.xib in Resources */,
@@ -412,6 +436,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E22FFA623387650005FE5D1 /* AboutMeHeaderTableViewCell.xib in Resources */,
+				3E22FFFD2339B9EB005FE5D1 /* HistoryCareerTableViewCell.xib in Resources */,
+				3E2200052339C8DD005FE5D1 /* JobInfoViewController.xib in Resources */,
 				3E22FFD823388ADB005FE5D1 /* AboutMeInfoTableViewCell.xib in Resources */,
 				3E22FFC123388914005FE5D1 /* Localizable.strings in Resources */,
 				3E22FFE923389FF0005FE5D1 /* SocialMediaTableViewCell.xib in Resources */,
@@ -433,11 +459,13 @@
 				3E22FF5923385CD7005FE5D1 /* AppDelegate.swift in Sources */,
 				3E22FF9223386F5E005FE5D1 /* BaseViewController.swift in Sources */,
 				3E22FF9623386FBE005FE5D1 /* Constants.swift in Sources */,
+				3E22FFF82339B9EB005FE5D1 /* HistoryCareerTableViewCell.swift in Sources */,
 				3E22FFE423389FF0005FE5D1 /* SocialMediaTableViewCell.swift in Sources */,
 				3E22FFF32338A857005FE5D1 /* Work.swift in Sources */,
 				3E22FFB0233881D9005FE5D1 /* UserProfileInfo.swift in Sources */,
 				3E22FFD323388ADB005FE5D1 /* AboutMeInfoTableViewCell.swift in Sources */,
 				3E22FFEF2338A805005FE5D1 /* CarrerViewModel.swift in Sources */,
+				3E2200002339C8DD005FE5D1 /* JobInfoViewController.swift in Sources */,
 				3E22FFA823387A32005FE5D1 /* NSObject+Extension.swift in Sources */,
 				3E22FFB4233882C9005FE5D1 /* AboutMeViewModel.swift in Sources */,
 				3E22FFCA23388A1E005FE5D1 /* Strings+Extension.swift in Sources */,
@@ -459,11 +487,13 @@
 				3E22FF6E23385CDA005FE5D1 /* MyCVTests.swift in Sources */,
 				3E22FF9323386F5E005FE5D1 /* BaseViewController.swift in Sources */,
 				3E22FF9723386FBE005FE5D1 /* Constants.swift in Sources */,
+				3E22FFF92339B9EB005FE5D1 /* HistoryCareerTableViewCell.swift in Sources */,
 				3E22FFE523389FF0005FE5D1 /* SocialMediaTableViewCell.swift in Sources */,
 				3E22FFF42338A857005FE5D1 /* Work.swift in Sources */,
 				3E22FFB1233881D9005FE5D1 /* UserProfileInfo.swift in Sources */,
 				3E22FFD423388ADB005FE5D1 /* AboutMeInfoTableViewCell.swift in Sources */,
 				3E22FFF02338A805005FE5D1 /* CarrerViewModel.swift in Sources */,
+				3E2200012339C8DD005FE5D1 /* JobInfoViewController.swift in Sources */,
 				3E22FFA923387A32005FE5D1 /* NSObject+Extension.swift in Sources */,
 				3E22FFB5233882C9005FE5D1 /* AboutMeViewModel.swift in Sources */,
 				3E22FFCB23388A1E005FE5D1 /* Strings+Extension.swift in Sources */,
@@ -485,11 +515,13 @@
 				3E22FF7923385CDA005FE5D1 /* MyCVUITests.swift in Sources */,
 				3E22FF9423386F5E005FE5D1 /* BaseViewController.swift in Sources */,
 				3E22FF9823386FBE005FE5D1 /* Constants.swift in Sources */,
+				3E22FFFA2339B9EB005FE5D1 /* HistoryCareerTableViewCell.swift in Sources */,
 				3E22FFE623389FF0005FE5D1 /* SocialMediaTableViewCell.swift in Sources */,
 				3E22FFF52338A857005FE5D1 /* Work.swift in Sources */,
 				3E22FFB2233881D9005FE5D1 /* UserProfileInfo.swift in Sources */,
 				3E22FFD523388ADB005FE5D1 /* AboutMeInfoTableViewCell.swift in Sources */,
 				3E22FFF12338A805005FE5D1 /* CarrerViewModel.swift in Sources */,
+				3E2200022339C8DD005FE5D1 /* JobInfoViewController.swift in Sources */,
 				3E22FFAA23387A32005FE5D1 /* NSObject+Extension.swift in Sources */,
 				3E22FFB6233882C9005FE5D1 /* AboutMeViewModel.swift in Sources */,
 				3E22FFCC23388A1E005FE5D1 /* Strings+Extension.swift in Sources */,

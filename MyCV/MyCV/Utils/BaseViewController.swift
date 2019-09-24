@@ -33,10 +33,7 @@ class BaseViewController: UIViewController, UIGestureRecognizerDelegate{
     /// Navigation Bar Type of current view
     var navigationBarType: NavigationBarType = .navigationBarTypeDefault
     
-    required init(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)!
-        
-    }
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -56,7 +53,6 @@ class BaseViewController: UIViewController, UIGestureRecognizerDelegate{
         prepareActionsForView()
     }
     
-    // Almost render actions - Network calls.
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
@@ -67,7 +63,7 @@ class BaseViewController: UIViewController, UIGestureRecognizerDelegate{
         // Dispose of any resources that can be recreated.
     }
     
-    // MARK:-
+   // MARK:- Default Behavior
     
     @objc func back(_ sender: UIBarButtonItem) {
         // Perform your custom actions
@@ -83,7 +79,7 @@ class BaseViewController: UIViewController, UIGestureRecognizerDelegate{
     }
 
     func prepareActionsForView() {
-        setBackButtonBy("ic_arrow_back_white")
+        setBackButtonBy("baseline_arrow_back_ios_white_36pt")
         
         switch self.navigationBarType {
         case .navigationBarTypeDefault:
@@ -111,20 +107,23 @@ class BaseViewController: UIViewController, UIGestureRecognizerDelegate{
     }
     
     fileprivate func setBackButtonBy(_ imgBackButton: String) {
-        let backButton: UIButton = UIButton(type: .custom)
-        backButton.setImage(UIImage(named: "ic_arrow_back_white"), for: UIControl.State())
-        backButton.addTarget(self, action: #selector(BaseViewController.back(_:)), for: .touchUpInside)
-        backButton.frame = CGRect(x: 0, y: 0, width: 50, height: 50)
-        backButton.imageView?.contentMode = .scaleAspectFit
-        let backButtonItem = UIBarButtonItem(customView: backButton)
-        navigationItem.leftBarButtonItem = backButtonItem
+        if self.navigationBackButton == .navigationBackButtonNone{
+            self.resetButtonsItems()
+        }else{
+            let backButton: UIButton = UIButton(type: .custom)
+            backButton.setImage(UIImage(named: "baseline_arrow_back_ios_white_36pt"), for: UIControl.State())
+            backButton.addTarget(self, action: #selector(BaseViewController.back(_:)), for: .touchUpInside)
+            backButton.frame = CGRect(x: 0, y: 0, width: 50, height: 50)
+            backButton.imageView?.contentMode = .scaleAspectFit
+            let backButtonItem = UIBarButtonItem(customView: backButton)
+            navigationItem.leftBarButtonItem = backButtonItem
+        }
+       
     }
-    
-    // MARK:- Default Behavior
-    fileprivate func resetButtonsItems() {
+
+    func resetButtonsItems() {
         leftButtonItems()
     }
-    
     fileprivate func leftButtonItems() {
         self.navigationItem.leftBarButtonItems = []
     }
